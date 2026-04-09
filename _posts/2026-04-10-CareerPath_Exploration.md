@@ -44,7 +44,7 @@ https://www.kisa.or.kr/404/form?postSeq=1385&page=1
 
 https://www.skshieldusapply.com/ko/o/107003
 
-![image.png](image%201.png)
+![image.png](image1.png)
 
 ---
 
@@ -52,7 +52,7 @@ https://www.skshieldusapply.com/ko/o/107003
 
 https://ahnlab.recruiter.co.kr/career/jobs/105112
 
-![image.png](image%202.png)
+![image.png](image2.png)
 
 ---
 
@@ -60,7 +60,7 @@ https://ahnlab.recruiter.co.kr/career/jobs/105112
 
 https://toss.im/career/job-detail?job_id=7569881003
 
-![image.png](image%203.png)
+![image.png](image3.png)
 
 ---
 
@@ -68,7 +68,7 @@ https://toss.im/career/job-detail?job_id=7569881003
 
 https://www.nshc.net/recruit/#toggle-id-2
 
-![image.png](image%204.png)
+![image.png](image4.png)
 
 ## 5곳의 공고에서 나온 역량 3가지
 
