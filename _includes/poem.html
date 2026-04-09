@@ -1,10 +1,8 @@
 <section class="author-profile">
   <div class="info">
     <div class="avatar">
-      <!-- 아바타 이미지 출력 -->
       <img src="{{ site.baseurl }}/{{ site.avatar }}" alt="avatar" />
     </div>
-    <!-- 닉네임(site.title) 출력 -->
     <h1>{{ site.title }}</h1>
   </div>
 
@@ -14,26 +12,33 @@
 </section>
 
 <style>
-  /* 소개 섹션 스타일 조정 */
   .author-profile {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
     border-top: 1px solid #eee;
-    margin-top: 30px;
+    margin-top: 50px;
   }
+
   .author-profile .info .avatar img {
-    width: 80px;
-    height: 80px;
+    width: 120px; 
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
+
   .author-profile .info h1 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 800; 
     margin: 10px 0;
-    color: #333;
+    color: #222;
+    letter-spacing: -1px; 
   }
+
   .author-profile .bio p {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 1.2rem; 
+    color: #555;
+    margin-top: 10px;
+    font-weight: 400;
   }
 </style>
