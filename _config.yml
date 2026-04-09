@@ -1,0 +1,84 @@
+# Site settings
+title: nyameang
+description: studying
+url: "https://nyameang.github.io"
+baseurl: ""
+avatar: "img/favicon.svg"
+
+
+# Theme style settings
+theme_style:
+  highlight:
+  alert:
+  post_preview:
+
+
+# Markdown enhancements
+math:
+  enable: true
+  engine: katex
+
+chart: true
+mermaid: true
+emoji-plus: true
+
+
+# Publish future posts
+future: true
+
+
+# Collections (유지)
+collections:
+  experiences:
+    output: true
+  publications:
+    output: true
+  projects:
+    output: true
+
+
+# Build settings
+permalink: pretty
+paginate: 10
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - /node_modules
+
+anchorjs: true
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jemoji
+
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+
+# Navigation menu
+menus:
+  - title: Home
+    font: fab fa-fort-awesome
+    url: /
+  - title: About
+    font: fas fa-paw
+    url: /about/
+  - title: Archive
+    font: fas fa-archive
+    url: /archive/
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
