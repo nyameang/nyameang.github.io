@@ -23,6 +23,30 @@ https://github.com/kitian616/jekyll-TeXt-theme
 					Show All
 					<sup>{{site.posts.size}}</sup>
 				</a>
+				<a class="tag-button" data-encode="{{ '개발' | url_encode }}" title="개발">
+					개발
+					<sup>{{ site.tags['개발'].size }}</sup>
+				</a>
+				<a class="tag-button" data-encode="{{ 'CTF/Wargame' | url_encode }}" title="CTF/Wargame">
+					CTF/Wargame
+					<sup>{{ site.tags['CTF/Wargame'].size }}</sup>
+				</a>
+				<a class="tag-button" data-encode="{{ 'BugBounty' | url_encode }}" title="BugBounty">
+					BugBounty
+					<sup>{{ site.tags['BugBounty'].size }}</sup>
+				</a>
+				<a class="tag-button" data-encode="{{ '블로그/기술문서' | url_encode }}" title="블로그/기술문서">
+					블로그/기술문서
+					<sup>{{ site.tags['블로그/기술문서'].size }}</sup>
+				</a>
+				<a class="tag-button" data-encode="{{ '논문/컨퍼런스' | url_encode }}" title="논문/컨퍼런스">
+					논문/컨퍼런스
+					<sup>{{ site.tags['논문/컨퍼런스'].size }}</sup>
+				</a>
+				<a class="tag-button" data-encode="{{ '공모전/자격증' | url_encode }}" title="공모전/자격증">
+					공모전/자격증
+					<sup>{{ site.tags['공모전/자격증'].size }}</sup>
+				</a>
 
 				{% capture tags %}
 				{% for tag in site.tags %}
