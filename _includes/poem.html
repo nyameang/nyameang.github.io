@@ -1,49 +1,49 @@
 <section class="author-profile">
   <div class="info">
     <div class="avatar">
+      <!-- 아바타 크기를 150px로 대폭 확대 -->
       <img src="{{ site.baseurl }}/{{ site.avatar }}" alt="avatar" />
     </div>
+    <!-- 닉네임 크기 확대 -->
     <h1>{{ site.title }}</h1>
   </div>
 
   <div class="bio">
+    <!-- 문구 크기를 본문보다 확실히 크게 설정 -->
     <p>"Goat"를 꿈꾸는 nyameang의 블로그입니다.</p>
   </div>
 </section>
 
 <style>
-  /* 소개 섹션 전체 스타일 조정 (밸런스 중시) */
   .author-profile {
     text-align: center;
-    padding: 35px 0; /* 위아래 여백을 적당히 늘려 시원하게 보임 */
-    border-top: 1px solid #eaeaea; /* 테마 색상에 맞춘 연한 구분선 */
-    margin-top: 45px;
-    background-color: #f9f9f9; /* 아주 연한 배경색을 넣어 본문과 구분 */
-    border-radius: 8px; /* 둥근 모서리로 부드러운 느낌 추가 */
+    padding: 60px 0; /* 위아래 여백을 대폭 늘려 공간 확보 */
+    border-top: 2px solid #333; /* 구분선을 더 진하게 변경 */
+    margin-top: 60px;
+    background: none; /* 배경색 제거 */
   }
 
   .author-profile .info .avatar img {
-    width: 100px;  /* 기존 80px에서 100px로 자연스럽게 확대 (너무 크지 않게) */
-    height: 100px;
+    width: 150px;  /* 150px로 크게 확대 */
+    height: 150px;
     border-radius: 50%;
-    margin-bottom: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* 과하지 않은 은은한 그림자 */
-    border: 3px solid #fff; /* 아바타에 흰색 테두리를 둘러 깔끔하게 처리 */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* 깔끔한 테두리만 추가 */
   }
 
   .author-profile .info h1 {
-    font-size: 1.8rem; /* 이름 크기 자연스럽게 확대 (이전 2.2rem은 너무 컸음) */
-    font-weight: 700;   /* 적당히 두껍게 설정 */
-    margin: 8px 0;
-    color: #333; /* 테마의 기본 글자 색상에 맞춤 */
-    letter-spacing: -0.5px; /* 글자 간격을 약간 좁혀 꽉 차 보이게 함 */
+    font-size: 3rem; /* 이름을 아주 크게 설정 */
+    font-weight: 900; /* 가장 두껍게 */
+    margin: 15px 0;
+    color: #000; /* 완전 검은색으로 강조 */
+    letter-spacing: -1.5px;
   }
 
   .author-profile .bio p {
-    font-size: 1.05rem; /* 문구 크기 아주 약간 확대 (이전 1.2rem은 너무 컸음) */
-    color: #666; /* 부드러운 회색조로 설정 */
-    margin-top: 8px;
-    font-weight: 400;
-    line-height: 1.6; /* 줄 간격을 넓혀 가독성 향상 */
+    font-size: 1.5rem; /* 자기소개 문구도 시원하게 확대 */
+    color: #444;
+    margin-top: 15px;
+    font-weight: 500;
+    word-break: keep-all; /* 문장이 예쁘게 끊기도록 설정 */
   }
 </style>
