@@ -14,7 +14,7 @@ sns:
 # Theme style settings
 theme_style:
   highlight: dark
-  alert:
+  alert: dark
   post_preview:
 
 
