@@ -12,7 +12,7 @@ sns:
 
 # Theme style settings
 theme_style:
-  highlight:
+  highlight: dark
   alert:
   post_preview:
 
