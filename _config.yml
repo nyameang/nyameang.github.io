@@ -3,7 +3,7 @@ title: nyameang
 description: studying
 url: "https://nyameang.github.io"
 baseurl: ""
-avatar: "img/favicon.svg"
+avatar: "img/otter.png"
 
 
 # Theme style settings
@@ -27,7 +27,7 @@ emoji-plus: true
 future: true
 
 
-# Collections (유지)
+# Collections
 collections:
   experiences:
     output: true
