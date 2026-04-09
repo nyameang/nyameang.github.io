@@ -1,0 +1,2 @@
+# nyameang.github.io
+waaa
