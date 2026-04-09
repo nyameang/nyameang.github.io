@@ -1,5 +1,6 @@
 # Site settings
 title: nyameang
+SEOTitle: nyameang
 description: studying
 url: "https://nyameang.github.io"
 baseurl: ""
