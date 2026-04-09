@@ -1,43 +1,42 @@
 <!-- Footer -->
-
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
+        <!-- SNS Links -->
+        <ul class="sns-links" style="list-style:none; padding:0; text-align:center;">
+          
+          <li style="display:inline; margin:10px;">
+            <a href="https://github.com/nyameang" target="_blank">GitHub</a>
+          </li>
 
-    <!-- SNS Links -->
-    <ul class="sns-links" style="list-style:none; padding:0; text-align:center;">
-      
-      <li style="display:inline; margin:10px;">
-        <a href="https://github.com/nyameang" target="_blank">GitHub</a>
-      </li>
+          <li style="display:inline; margin:10px;">
+            <a href="https://instagram.com/nyameang" target="_blank">Instagram</a>
+          </li>
 
-      <li style="display:inline; margin:10px;">
-        <a href="https://instagram.com/nyameang" target="_blank">Instagram</a>
-      </li>
+        </ul>
 
-    </ul>
+        <p class="copyright" style="text-align:center;">
+          &copy;2026 nyameang
+        </p>
 
-    <p class="copyright" style="text-align:center;">
-      &copy;2026 nyameang
-    </p>
-
-  </div>
-</div>
-
+      </div>
+    </div>
   </div>
 </footer>
 
 <!-- Theme JavaScript -->
+<script src="{{ '/js/gungnir/gungnir.min.js' | relative_url }}"></script>
 
-<script src="/js/gungnir/gungnir.min.js"></script>
+{% if page.title == 'Archive' %}
+<script src="{{ '/js/gungnir/archive.js' | relative_url }}"></script>
+{% endif %}
 
 <!-- fastClick.js -->
-
 <script>
   var $nav = document.querySelector("nav");
-  if($nav && typeof FastClick !== "undefined") {
+  if ($nav && typeof FastClick !== "undefined") {
     FastClick.attach($nav);
   }
 </script>
