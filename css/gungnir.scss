@@ -32,3 +32,10 @@
 
   "style"
 ;
+/* 히토코토(따옴표 장식) 강제 제거 */
+.hitokoto-outer, 
+.hitokoto-inner, 
+.hitokoto-dot, 
+#hitokoto {
+    display: none !important;
+}
