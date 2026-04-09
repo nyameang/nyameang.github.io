@@ -5,6 +5,10 @@ url: "https://nyameang.github.io"
 baseurl: ""
 avatar: "img/otter.png"
 
+sns:
+  RSS: true
+  github_username: nyameang
+  email_address: jmu0830@gmail.com
 
 # Theme style settings
 theme_style:
