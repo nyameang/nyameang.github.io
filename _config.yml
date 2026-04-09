@@ -83,6 +83,8 @@ menus:
     font: fas fa-archive
     url: /archive/
 
+hitokoto: false
+
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
