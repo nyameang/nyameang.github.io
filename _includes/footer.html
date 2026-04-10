@@ -28,14 +28,21 @@
 
 {% include mode.html %}
 
-<!-- Theme JavaScript -->
 <script src="{{ '/js/gungnir/gungnir.min.js' | relative_url }}"></script>
 
 {% if page.title == 'Archive' %}
+
+<script>
+  $.fn.tagcloud.defaults = {
+    color: { start: '#a5a5e4', end: '#4388c4' }
+  };
+  $('#tag_cloud a').tagcloud();
+</script>
+
 <script src="{{ '/js/gungnir/archive.js' | relative_url }}"></script>
+
 {% endif %}
 
-<!-- fastClick.js -->
 <script>
   var $nav = document.querySelector("nav");
   if ($nav && typeof FastClick !== "undefined") {
