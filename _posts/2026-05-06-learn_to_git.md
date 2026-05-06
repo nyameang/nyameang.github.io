@@ -138,6 +138,6 @@ tags:
 
 ## 인증
 
-![image.png](image%2013.png)
+![image.png](/img/learn_to_git/image%2013.png)
 
-![image.png](image%2014.png)
+![image.png](/img/learn_to_git/image%2014.png)
